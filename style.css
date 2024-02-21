@@ -1,0 +1,96 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    width: calc(100vw-25px);
+    margin: 0 100px;
+    padding: 20px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+}
+
+.img{
+    margin-right: 5px;
+    display: block;
+}
+
+.menu-bar{
+    position: absolute;
+    right: 0px;
+}
+
+.menu{
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+    font-weight: bold;
+    color: #999999;
+}
+
+#home:hover, #login:hover, #signup:hover{
+    color: #000000;
+}
+
+.wrapper{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.wrapper > h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.wrapper > a:link, a:visited{
+    color : #5F85BB;
+    text-decoration: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.wrapper > a:hover, a:active{
+    text-decoration: underline;
+}
+
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#login-form > input::placeholder{
+    color: #D2D2D2;
+    
+}
+
+#login-form > input[type="submit"]{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #5F85BB;
+    margin-top: 20px;
+}
+
+#login-form > label{
+    color: #999999;
+}
