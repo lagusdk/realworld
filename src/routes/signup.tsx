@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import 'style.css';
 
 const Signup: React.FC = () => {
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
