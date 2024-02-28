@@ -1,5 +1,8 @@
-function App() {
-  return <></>;
-}
+import React from 'react';
+import Routes from './routes';
 
-export default App
+const App: React.FC = () => {
+  return <Routes />;
+};
+
+export default App;
