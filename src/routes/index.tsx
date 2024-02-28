@@ -9,8 +9,8 @@ const Routes: React.FC = () => {
     <Router>
       <Switch>
         <Route path="/" Component={Home} key="home" />
-        <Route path="/login" Component={Login} key="login" />
-        <Route path="/signup" Component={Signup} key="signup" />
+        <Route path="/Login" Component={Login} key="login" />
+        <Route path="/Signup" Component={Signup} key="signup" />
       </Switch>
     </Router>
   );
